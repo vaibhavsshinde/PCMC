@@ -1,0 +1,12 @@
+System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe/chromedriver.exe");  
+		WebDriver driver = new ChromeDriver();
+
+		driver.manage().window().maximize();
+		  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.get("https://demo.guru99.com/test/upload/");   
+		Thread.sleep(1000);
+		driver.findElement(By.id("file_wraper0")).click();
+		Thread.sleep(1000);
+		//Runtime currentRuntime = new Runtime();
+		//Runtime.getRuntime().exec("C:\\Users\\user\\Documents\\practice.exe");
+		Runtime.getRuntime().exec("C:\\Users\\user\\Documents\\practice.exe");
