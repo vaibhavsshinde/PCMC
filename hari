@@ -9,4 +9,4 @@ System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe/chrome
 		Thread.sleep(1000);
 		//Runtime currentRuntime = new Runtime();
 		//Runtime.getRuntime().exec("C:\\Users\\user\\Documents\\practice.exe");
-		Runtime.getRuntime().exec("C:\\Users\\user\\Documents\\practice.exe");
+		
