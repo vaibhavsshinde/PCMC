@@ -8,5 +8,5 @@ System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe/chrome
 		driver.findElement(By.id("file_wraper0")).click();
 		Thread.sleep(1000);
 		
-		//Runtime.getRuntime().exec("C:\\Users\\user\\Documents\\practice.exe");
+		
 		
